@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name timhawes)(type KiCad)(uri "$(KIPRJMOD)/external_libs/timhawes-kicad-libraries/timhawes.pretty")(options "")(descr ""))
+  (lib (name _sensors)(type KiCad)(uri "$(KIPRJMOD)/external_libs/kicad-lib/footprints/_sensors.pretty")(options "")(descr ""))
+  (lib (name mpu-9250)(type Legacy)(uri "$(KIPRJMOD)/external_libs/stereo-camera-board/kicad/mpu-9250.mod")(options "")(descr ""))
+)
