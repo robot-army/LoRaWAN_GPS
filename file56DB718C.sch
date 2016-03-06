@@ -31,14 +31,15 @@ LIBS:valves
 LIBS:sensors
 LIBS:_sensors
 LIBS:timhawes
-LIBS:mpu-9250
 LIBS:SX1276
+LIBS:mpu-9250
+LIBS:SAMD21E17A
 LIBS:lorawan_gps-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 7
 Title ""
 Date ""
 Rev ""

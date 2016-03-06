@@ -31,14 +31,15 @@ LIBS:valves
 LIBS:sensors
 LIBS:_sensors
 LIBS:timhawes
-LIBS:mpu-9250
 LIBS:SX1276
+LIBS:mpu-9250
+LIBS:SAMD21E17A
 LIBS:lorawan_gps-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -71,5 +72,23 @@ S 3200 2350 2300 2050
 U 56DB718D
 F0 "LoraWAN" 60
 F1 "file56DB718C.sch" 60
+$EndSheet
+$Sheet
+S 3600 950  2200 1150
+U 56C10DB4
+F0 "MCU" 60
+F1 "file56C10DB3.sch" 60
+F2 "SDA" I L 3600 1050 60 
+F3 "SCL" I L 3600 1150 60 
+F6 "VbatIN" I R 5800 1800 60 
+F7 "5V_USB" I R 5800 1550 60 
+F9 "5VSenseIn" I R 5800 1300 60 
+F10 "intb" I L 3600 1250 60 
+$EndSheet
+$Sheet
+S 3300 5150 2100 1250
+U 56DB96DC
+F0 "Battery" 60
+F1 "file56DB96DB.sch" 60
 $EndSheet
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Sunday, 06 March 2016 00:33:19
+update=Sunday, 06 March 2016 01:21:26
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,5 +61,6 @@ LibName31=_sensors
 LibName32=timhawes
 LibName33=SX1276
 LibName34=mpu-9250
+LibName35=SAMD21E17A
 [general]
 version=1
