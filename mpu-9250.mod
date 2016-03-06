@@ -1,0 +1,194 @@
+PCBNEW-LibModule-V1  3/8/2014 9:59:33 PM
+# encoding utf-8
+Units mm
+$INDEX
+MPU-9250
+$EndINDEX
+$MODULE MPU-9250
+Po 0 0 0 15 531BF4FE 00000000 ~~
+Li MPU-9250
+Sc 0
+AR 
+Op 0 0 0
+.LocalClearance 0.03
+T0 0 -2.2 0.5 0.5 0 0.125 N V 21 N "MPU-9250"
+T1 0 -6.4 1.5 1.5 0 0.15 N I 21 N "VAL**"
+DS -0.85 -0.76 0.85 -0.76 0.05 21
+DS 0.85 -0.76 0.85 0.76 0.05 21
+DS 0.85 0.76 -0.85 0.76 0.05 21
+DS -0.85 0.76 -0.85 -0.76 0.05 21
+DC -1 -1 -0.8 -1 0.1 21
+DS -1.5 -1.5 1.5 -1.5 0.01 21
+DS 1.5 -1.5 1.5 1.5 0.01 21
+DS -1.5 1.5 1.5 1.5 0.01 21
+DS -1.5 -1.5 -1.5 1.5 0.01 21
+$PAD
+Sh "1" R 0.35 0.21 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.35 -1
+$EndPAD
+$PAD
+Sh "2" R 0.35 0.21 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.35 -0.6
+$EndPAD
+$PAD
+Sh "3" R 0.35 0.21 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.35 -0.2
+$EndPAD
+$PAD
+Sh "4" R 0.35 0.21 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.35 0.2
+$EndPAD
+$PAD
+Sh "5" R 0.35 0.21 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.35 0.6
+$EndPAD
+$PAD
+Sh "6" R 0.35 0.21 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.35 1
+$EndPAD
+$PAD
+Sh "7" R 0.21 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 1.35
+$EndPAD
+$PAD
+Sh "8" R 0.21 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.6 1.35
+$EndPAD
+$PAD
+Sh "9" R 0.21 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.2 1.35
+$EndPAD
+$PAD
+Sh "10" R 0.21 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.2 1.35
+$EndPAD
+$PAD
+Sh "11" R 0.21 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.6 1.35
+$EndPAD
+$PAD
+Sh "12" R 0.21 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 1.35
+$EndPAD
+$PAD
+Sh "13" R 0.35 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.35 1
+$EndPAD
+$PAD
+Sh "14" R 0.35 0.21 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.35 0.6
+$EndPAD
+$PAD
+Sh "15" R 0.35 0.21 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.35 0.2
+$EndPAD
+$PAD
+Sh "16" R 0.35 0.21 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.35 -0.2
+$EndPAD
+$PAD
+Sh "17" R 0.35 0.21 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.35 -0.6
+$EndPAD
+$PAD
+Sh "18" R 0.35 0.21 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.35 -1
+$EndPAD
+$PAD
+Sh "19" R 0.21 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 -1.35
+$EndPAD
+$PAD
+Sh "20" R 0.21 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.6 -1.35
+$EndPAD
+$PAD
+Sh "21" R 0.21 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.2 -1.35
+$EndPAD
+$PAD
+Sh "22" R 0.21 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.2 -1.35
+$EndPAD
+$PAD
+Sh "23" R 0.21 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.6 -1.35
+$EndPAD
+$PAD
+Sh "24" R 0.21 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 -1.35
+$EndPAD
+$EndMODULE MPU-9250
+$EndLIBRARY
