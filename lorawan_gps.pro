@@ -1,4 +1,4 @@
-update=Sunday, 06 March 2016 01:21:26
+update=17/03/2016 16:36:55
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -62,5 +64,5 @@ LibName32=timhawes
 LibName33=SX1276
 LibName34=mpu-9250
 LibName35=SAMD21E17A
-[general]
-version=1
+LibName36=miniultrapro
+LibName37=texas-instruments
