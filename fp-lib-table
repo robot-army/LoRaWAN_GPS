@@ -5,4 +5,5 @@
   (lib (name mpu-9250)(type Legacy)(uri "$(KIPRJMOD)/mpu-9250.mod")(options "")(descr ""))
   (lib (name RFM95W)(type KiCad)(uri "$(KIPRJMOD)/MiniUltraPro-master/RFM95W.pretty")(options "")(descr ""))
   (lib (name TPS61200)(type KiCad)(uri "$(KIPRJMOD)/TPS61200.pretty")(options "")(descr ""))
+  (lib (name SMA_EDGE)(type Legacy)(uri /Users/robotarmy/Downloads/JOS_SMA_connectors/SMA_EDGE.mod)(options "")(descr ""))
 )

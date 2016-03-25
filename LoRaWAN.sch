@@ -36,6 +36,7 @@ LIBS:mpu-9250
 LIBS:SAMD21E17A
 LIBS:miniultrapro
 LIBS:texas-instruments
+LIBS:sma_edge
 LIBS:lorawan_gps-cache
 EELAYER 25 0
 EELAYER END
@@ -87,17 +88,6 @@ F 3 "" H 6350 3750 50  0000 C CNN
 	1    6350 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6150 3500 6350 3500
-Wire Wire Line
-	6350 3500 6350 3750
-Wire Wire Line
-	6150 3600 6350 3600
-Connection ~ 6350 3600
-Wire Wire Line
-	4850 3750 4850 3600
-Wire Wire Line
-	4850 3600 5100 3600
 $Comp
 L +3.3V #PWR010
 U 1 1 56EAE17D
@@ -131,17 +121,6 @@ F 3 "" H 6850 2450 50  0000 C CNN
 	1    6850 2450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6150 2900 6300 2900
-Wire Wire Line
-	6300 2900 6300 2300
-Wire Wire Line
-	6300 2300 6850 2300
-Wire Wire Line
-	6850 2300 6850 2350
-Wire Wire Line
-	6550 2200 6550 2350
-Connection ~ 6550 2300
 $Comp
 L GND #PWR011
 U 1 1 56EAE25E
@@ -153,6 +132,66 @@ F 3 "" H 6550 2700 50  0000 C CNN
 	1    6550 2700
 	1    0    0    -1  
 $EndComp
+Text HLabel 7150 3000 2    60   Input ~ 0
+RF_RESET
+Text HLabel 7150 3100 2    60   Input ~ 0
+RF_NSS
+Text HLabel 7150 3200 2    60   Input ~ 0
+RF_SCLK
+Text HLabel 7150 3300 2    60   Input ~ 0
+RF_MOSI
+Text HLabel 7150 3400 2    60   Output ~ 0
+RF_MISO
+Text HLabel 4100 3000 0    60   Output ~ 0
+RF_DIO0
+Text HLabel 4100 3100 0    60   Output ~ 0
+RF_DIO1
+Text HLabel 4100 3200 0    60   Output ~ 0
+RF_DIO2
+$Comp
+L SMA_EDGE SMA_E2
+U 1 1 56F512D1
+P 4150 2450
+F 0 "SMA_E2" H 4119 2113 60  0000 C CNN
+F 1 "SMA_EDGE" H 4119 2219 60  0000 C CNN
+F 2 "SMA_EDGE:SMA_EDGE" H 4150 2450 60  0001 C CNN
+F 3 "" H 4150 2450 60  0000 C CNN
+	1    4150 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 56F51345
+P 4650 2700
+F 0 "#PWR012" H 4650 2450 50  0001 C CNN
+F 1 "GND" H 4658 2526 50  0000 C CNN
+F 2 "" H 4650 2700 50  0000 C CNN
+F 3 "" H 4650 2700 50  0000 C CNN
+	1    4650 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3500 6350 3500
+Wire Wire Line
+	6350 3500 6350 3750
+Wire Wire Line
+	6150 3600 6350 3600
+Connection ~ 6350 3600
+Wire Wire Line
+	4850 3750 4850 3600
+Wire Wire Line
+	4850 3600 5100 3600
+Wire Wire Line
+	6150 2900 6300 2900
+Wire Wire Line
+	6300 2900 6300 2300
+Wire Wire Line
+	6300 2300 6850 2300
+Wire Wire Line
+	6850 2300 6850 2350
+Wire Wire Line
+	6550 2200 6550 2350
+Connection ~ 6550 2300
 Wire Wire Line
 	6550 2700 6550 2550
 Wire Wire Line
@@ -176,35 +215,17 @@ Wire Wire Line
 	4100 3100 5100 3100
 Wire Wire Line
 	5100 3200 4100 3200
-Text HLabel 7150 3000 2    60   Input ~ 0
-RF_RESET
-Text HLabel 7150 3100 2    60   Input ~ 0
-RF_NSS
-Text HLabel 7150 3200 2    60   Input ~ 0
-RF_SCLK
-Text HLabel 7150 3300 2    60   Input ~ 0
-RF_MOSI
-Text HLabel 7150 3400 2    60   Output ~ 0
-RF_MISO
-Text HLabel 4100 3000 0    60   Output ~ 0
-RF_DIO0
-Text HLabel 4100 3100 0    60   Output ~ 0
-RF_DIO1
-Text HLabel 4100 3200 0    60   Output ~ 0
-RF_DIO2
-$Comp
-L C_Small C5
-U 1 1 56EBF9F4
-P 4850 2700
-F 0 "C5" H 4860 2770 50  0000 L CNN
-F 1 "LoRa Ant" H 4860 2620 50  0000 L CNN
-F 2 "SMA" H 4850 2700 50  0001 C CNN
-F 3 "" H 4850 2700 50  0000 C CNN
-	1    4850 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4850 2900 5100 2900
 Wire Wire Line
-	4850 2900 4850 2800
+	4850 2450 4850 2900
+Wire Wire Line
+	4850 2450 4500 2450
+Wire Wire Line
+	4500 2350 4650 2350
+Wire Wire Line
+	4650 2350 4650 2700
+Wire Wire Line
+	4500 2550 4650 2550
+Connection ~ 4650 2550
 $EndSCHEMATC

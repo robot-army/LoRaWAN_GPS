@@ -1,4 +1,4 @@
-update=17/03/2016 16:36:55
+update=Friday, 25 March 2016 10:10:52
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,4 @@ LibName34=mpu-9250
 LibName35=SAMD21E17A
 LibName36=miniultrapro
 LibName37=texas-instruments
+LibName38=/Users/robotarmy/Downloads/JOS_SMA_connectors/sma_edge

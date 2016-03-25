@@ -36,6 +36,7 @@ LIBS:mpu-9250
 LIBS:SAMD21E17A
 LIBS:miniultrapro
 LIBS:texas-instruments
+LIBS:sma_edge
 LIBS:lorawan_gps-cache
 EELAYER 25 0
 EELAYER END
