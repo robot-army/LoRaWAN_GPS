@@ -1,4 +1,4 @@
-update=Friday, 25 March 2016 10:10:52
+update=Monday, 28 March 2016 08:34:23
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -67,3 +65,5 @@ LibName35=SAMD21E17A
 LibName36=miniultrapro
 LibName37=texas-instruments
 LibName38=/Users/robotarmy/Downloads/JOS_SMA_connectors/sma_edge
+[general]
+version=1
