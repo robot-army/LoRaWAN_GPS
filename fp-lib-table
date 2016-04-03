@@ -6,4 +6,6 @@
   (lib (name RFM95W)(type KiCad)(uri "$(KIPRJMOD)/MiniUltraPro-master/RFM95W.pretty")(options "")(descr ""))
   (lib (name TPS61200)(type KiCad)(uri "$(KIPRJMOD)/TPS61200.pretty")(options "")(descr ""))
   (lib (name SMA_EDGE)(type Legacy)(uri /Users/robotarmy/Downloads/JOS_SMA_connectors/SMA_EDGE.mod)(options "")(descr ""))
+  (lib (name edgemount_sma)(type KiCad)(uri "$(KIPRJMOD)/edgemount_sma.pretty")(options "")(descr ""))
+  (lib (name RocketScreamKicadLibrary)(type KiCad)(uri /Users/robotarmy/Downloads/RocketScreamKicadLibrary-master/RocketScreamKicadLibrary.pretty)(options "")(descr ""))
 )
