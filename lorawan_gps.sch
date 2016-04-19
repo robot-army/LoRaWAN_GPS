@@ -106,9 +106,11 @@ $EndSheet
 $Sheet
 S 4300 4200 2100 1250
 U 56DB96DC
-F0 "Battery" 60
+F0 "Battery and USB Connector" 60
 F1 "Battery.sch" 60
 F2 "V_BAT" O L 4300 4350 60 
+F3 "D+" I L 4300 4550 60 
+F4 "D-" I L 4300 4750 60 
 $EndSheet
 $Sheet
 S 1000 800  1950 1050
