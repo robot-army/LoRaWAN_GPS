@@ -8,4 +8,5 @@
   (lib (name SMA_EDGE)(type Legacy)(uri /Users/robotarmy/Downloads/JOS_SMA_connectors/SMA_EDGE.mod)(options "")(descr ""))
   (lib (name edgemount_sma)(type KiCad)(uri "$(KIPRJMOD)/edgemount_sma.pretty")(options "")(descr ""))
   (lib (name RocketScreamKicadLibrary)(type KiCad)(uri /Users/robotarmy/Downloads/RocketScreamKicadLibrary-master/RocketScreamKicadLibrary.pretty)(options "")(descr ""))
+  (lib (name Johanson)(type KiCad)(uri "$(KIPRJMOD)/Johanson.pretty")(options "")(descr ""))
 )
