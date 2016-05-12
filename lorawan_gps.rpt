@@ -1,0 +1,32 @@
+** Drc report for /Users/robotarmy/Documents/LoRaWAN_GPS/lorawan_gps.kicad_pcb **
+** Created on 2016-05-12 22:03:17 **
+
+** Found 8 DRC errors **
+ErrType(22): Copper area inside copper area
+    @ (142.460 mm,78.400 mm): Zone Outline  (5734E923) [Net-(IC1-Pad3)] on F.Cu
+    @ (142.460 mm,78.400 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(22): Copper area inside copper area
+    @ (142.470 mm,78.400 mm): Zone Outline  (5734E923) [Net-(IC1-Pad3)] on F.Cu
+    @ (142.470 mm,78.400 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(22): Copper area inside copper area
+    @ (142.470 mm,78.400 mm): Zone Outline  (5734E923) [Net-(IC1-Pad3)] on F.Cu
+    @ (142.470 mm,78.400 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(22): Copper area inside copper area
+    @ (142.460 mm,78.400 mm): Zone Outline  (5734E923) [Net-(IC1-Pad3)] on F.Cu
+    @ (142.460 mm,78.400 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(22): Copper area inside copper area
+    @ (142.460 mm,78.400 mm): Zone Outline  (5734E923) [Net-(IC1-Pad3)] on F.Cu
+    @ (142.460 mm,78.400 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(22): Copper area inside copper area
+    @ (142.470 mm,78.400 mm): Zone Outline  (5734E923) [Net-(IC1-Pad3)] on F.Cu
+    @ (142.470 mm,78.400 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(22): Copper area inside copper area
+    @ (142.470 mm,78.400 mm): Zone Outline  (5734E923) [Net-(IC1-Pad3)] on F.Cu
+    @ (142.470 mm,78.400 mm): Zone Outline  (00000000) [GND] on F.Cu
+ErrType(22): Copper area inside copper area
+    @ (142.460 mm,78.400 mm): Zone Outline  (5734E923) [Net-(IC1-Pad3)] on F.Cu
+    @ (142.460 mm,78.400 mm): Zone Outline  (00000000) [GND] on F.Cu
+
+** Found 0 unconnected pads **
+
+** End of Report **
